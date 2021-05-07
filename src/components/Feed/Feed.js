@@ -1,11 +1,14 @@
 import React from "react";
 import "./Feed.css";
+import MessageSender from "./MessageSender/MessageSender";
+import StoryReel from "./Story/StoryReel";
 
 function Feed() {
   return (
     <div className="feed">
-      <h1>feed</h1>
-      {/* Storyreel */}
+      <StoryReel />
+      <MessageSender />
+
       {/* messagesender */}
       {/*  */}
     </div>

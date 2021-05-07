@@ -65,6 +65,11 @@
 .header-option--active > .MuiSvgIcon-root {
     color: #2e81f4;
 }
+
+.header-option--active {
+    border-bottom: 4px solid #2e81f4;
+}
+
 .header-info {
     display: flex;
     align-items: center;
