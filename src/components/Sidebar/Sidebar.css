@@ -2,3 +2,9 @@
     padding: 25px 10px;
     flex: 0.33;
 }
+
+@media only screen and (max-width: 800px) {
+    .sidebar {
+        display: none;
+    }
+}

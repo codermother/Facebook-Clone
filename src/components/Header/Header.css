@@ -82,3 +82,94 @@
 .header-right {
     display: flex;
 }
+
+@media only screen and (max-width: 1000px) {
+    .header-right > .MuiIconButton-root {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 850px) {
+    .header {
+        display: grid;
+        grid-template-columns: 25vw 25vw 25vw 25vw;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 10px;
+        justify-content: center;
+    }
+
+    .header-left {
+        grid-column: 1 / 4;
+        margin-left: 40px;
+    }
+
+    .header-input {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .header-center {
+        grid-column: 1 / 5;
+        grid-row: 2 / 3;
+    }
+
+    .header-right {
+        grid-column: 4 / 5;
+        grid-row: 1 / 2;
+        justify-self: end;
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .header-input {
+        width: 80%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .header-right {
+        margin-right: 20px;
+    }
+
+    .header-left{
+        margin-left: 20px;
+    }
+
+    .header-option {
+        padding: 0 20px;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .header-left{
+        margin-left: 10px;
+    }
+
+    .header-input {
+        width: 65%;
+        margin-right: 20px;
+        margin-left: 0;
+    }
+
+    .header-right {
+        margin-right: 10px;
+    }
+
+    .header-option > .MuiSvgIcon-root {
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .header-left{
+        justify-content: start;
+    }
+
+    .header-input {
+        width: 58%;
+    }
+}

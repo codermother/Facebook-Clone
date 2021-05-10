@@ -45,6 +45,7 @@ function MessageSender() {
             onChange={(e) => setImageUrl(e.target.value)}
             type="text"
             placeholder="image URL (Optional)"
+            className="messageSender-imageInput"
           />
           <button onClick={handleSubmit} type="submit">
             Hidden Submit
