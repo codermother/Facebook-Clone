@@ -1,6 +1,6 @@
 # Facebook Clone with ReactJS
 
-A Facebook Clone that you can enter with your Google Account and send realtime posts.
+A Facebook Clone that you can sign in with your Google Account and send realtime posts.
 
 Click demo to try it by yourself!
 
